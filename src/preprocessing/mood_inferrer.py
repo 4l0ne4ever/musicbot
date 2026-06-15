@@ -1,6 +1,13 @@
 import pandas as pd
 
-from src.mood_classification.labels import MOOD_KEYWORDS
+MOOD_KEYWORDS: dict[str, list[str]] = {
+    "happy": ["happy", "joy", "excited", "fun", "cheerful", "vui", "hạnh phúc"],
+    "sad": ["sad", "lonely", "depressed", "cry", "buồn", "cô đơn"],
+    "calm": ["calm", "relax", "peaceful", "chill", "thư giãn", "bình yên"],
+    "energetic": ["energy", "workout", "pump", "hype", "năng lượng", "tập trung"],
+    "romantic": ["love", "romantic", "date", "yêu", "lãng mạn"],
+    "stressed": ["stress", "anxious", "tired", "overwhelmed", "căng thẳng", "mệt"],
+}
 
 
 def infer_mood_label(row: dict) -> str | None:

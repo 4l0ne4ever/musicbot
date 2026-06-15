@@ -37,13 +37,6 @@ Thumbs.db
 .cache
 .cache/
 
-# Data (large files — keep folder structure via .gitkeep)
-data/raw/*
-data/processed/*
+# Model artifacts (chưa có — giữ folder trống)
 data/models/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 !data/models/.gitkeep
-
-# Optional: ignore generated figures (remove these lines if you want to commit charts)
-# data/processed/figures/

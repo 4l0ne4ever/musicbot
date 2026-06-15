@@ -1,0 +1,26 @@
+{
+  "initial_rows": 8668,
+  "final_rows": 8668,
+  "duplicates_removed": 0,
+  "mood_labels_inferred": 172,
+  "mood_distribution": {
+    "happy": 3065,
+    "calm": 2365,
+    "sad": 1859,
+    "energetic": 592,
+    "romantic": 491,
+    "stressed": 296
+  },
+  "missing_after_processing": {
+    "popularity": 8668,
+    "preview_url": 8668,
+    "album_id": 7362,
+    "album_type": 7362,
+    "disc_number": 7362,
+    "track_number": 7362,
+    "isrc": 7477,
+    "added_at": 7375,
+    "genres": 8668,
+    "release_year": 116
+  }
+}
