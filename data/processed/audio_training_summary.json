@@ -1,0 +1,36 @@
+{
+  "crawl_status": "in_progress",
+  "western_target": 3000,
+  "attempted": 719,
+  "pending": 2281,
+  "checkpoint_dup_rows": 0,
+  "audio_ok_v2": 195,
+  "stale_ok_v1": 0,
+  "ok_pct_of_target": 6.5,
+  "ok_pct_of_attempted": 27.12,
+  "feature_schema": "v2",
+  "feature_dim": 54,
+  "status_counts": {
+    "pending": 2281,
+    "error:ConnectionError": 372,
+    "ok": 195,
+    "not_found": 149,
+    "download_failed": 2,
+    "no_preview": 1
+  },
+  "mood_ok": {
+    "calm": 195
+  },
+  "feature_failed_detail": {
+    "load:": 0,
+    "extract:": 0,
+    "near_silent": 0,
+    "len(y)": 0
+  },
+  "training_rows": 195,
+  "files": {
+    "checkpoint": "C:\\Users\\User\\Desktop\\idk\\ds\\data\\processed\\deezer_audio_checkpoint.csv",
+    "training": "C:\\Users\\User\\Desktop\\idk\\ds\\data\\processed\\spotify_audio_training.csv"
+  },
+  "note": "Re-run after crawl; per-class balance only valid when attempted=3000."
+}
