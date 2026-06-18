@@ -24,18 +24,17 @@
   "audio_snapshot": {
     "crawl_status": "in_progress",
     "western_target": 3000,
-    "attempted": 719,
-    "audio_ok_v2": 195,
-    "training_rows": 195,
+    "attempted": 2705,
+    "audio_ok_v2": 2261,
+    "training_rows": 2261,
     "feature_schema": "v2",
     "status_counts": {
-      "pending": 2281,
-      "error:ConnectionError": 372,
-      "ok": 195,
-      "not_found": 149,
-      "download_failed": 2,
-      "no_preview": 1
+      "ok": 2261,
+      "pending": 295,
+      "error:ConnectionError": 232,
+      "not_found": 210,
+      "no_preview": 2
     }
   },
-  "audio_coverage_pct_western": 6.5
+  "audio_coverage_pct_western": 75.37
 }
